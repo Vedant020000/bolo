@@ -1,0 +1,23 @@
+{
+  "name": "bolo",
+  "version": "0.3.0",
+  "description": "Give any agent a voice — speak / listen / stop_speaking tools backed by Sarvam Bulbul V4 Flash, plus auto-speak hooks.",
+  "author": {
+    "name": "Vedant Sondur",
+    "url": "https://github.com/Vedant020000"
+  },
+  "homepage": "https://github.com/Vedant020000/bolo",
+  "repository": "https://github.com/Vedant020000/bolo",
+  "license": "MIT",
+  "keywords": ["voice", "tts", "speech", "sarvam", "bulbul", "hindi", "hinglish"],
+  "mcpServers": "./.mcp.json",
+  "interface": {
+    "displayName": "bolo — give any agent a voice",
+    "shortDescription": "Speak + listen tools for any agent (Sarvam Bulbul V4 Flash).",
+    "longDescription": "Adds voice to Codex: the agent calls speak() to say the one thing worth hearing out loud — a result, a question, a confirmation — while the full answer stays on screen. listen() gives it ears (record + Hinglish-aware transcript). All audio is generated live by Sarvam Bulbul V4 Flash (200+ Indian voices). Requires the bolo engine installed once (github.com/Vedant020000/bolo).",
+    "developerName": "Vedant Sondur",
+    "category": "Productivity",
+    "capabilities": ["Voice", "Text-to-speech", "Speech-to-text"],
+    "defaultPrompt": ["Say out loud: the build is green."]
+  }
+}

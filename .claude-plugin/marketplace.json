@@ -1,0 +1,15 @@
+{
+  "name": "bolo",
+  "owner": {
+    "name": "Vedant Sondur",
+    "url": "https://github.com/Vedant020000"
+  },
+  "plugins": [
+    {
+      "name": "bolo",
+      "source": "./plugins/bolo",
+      "description": "Give any agent a voice — speak / listen / stop_speaking tools backed by Sarvam Bulbul V4 Flash, plus auto-speak hooks.",
+      "version": "0.3.0"
+    }
+  ]
+}

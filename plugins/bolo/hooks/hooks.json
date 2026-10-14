@@ -1,0 +1,14 @@
+{
+  "Stop": [
+    {
+      "hooks": [
+        {
+          "type": "command",
+          "command": "python3 $HOME/.local/share/bolo/hook.py",
+          "timeout": 5000,
+          "quiet": true
+        }
+      ]
+    }
+  ]
+}

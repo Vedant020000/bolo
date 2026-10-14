@@ -1,0 +1,13 @@
+{
+  "name": "bolo",
+  "version": "0.3.0",
+  "description": "Give any agent a voice — speak / listen / stop_speaking tools backed by Sarvam Bulbul V4 Flash, plus auto-speak hooks.",
+  "author": {
+    "name": "Vedant Sondur",
+    "url": "https://github.com/Vedant020000"
+  },
+  "repository": "https://github.com/Vedant020000/bolo",
+  "license": "MIT",
+  "keywords": ["voice", "tts", "speech", "sarvam", "bulbul", "hindi", "hinglish"],
+  "mcpServers": "./.mcp.json"
+}

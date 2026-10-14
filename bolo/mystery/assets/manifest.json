@@ -1,0 +1,81 @@
+{
+  "title": [
+    "title/0.wav"
+  ],
+  "cold_open": [
+    "cold_open/0.wav",
+    "cold_open/1.wav",
+    "cold_open/2.wav",
+    "cold_open/3.wav",
+    "cold_open/4.wav",
+    "cold_open/5.wav",
+    "cold_open/6.wav",
+    "cold_open/7.wav"
+  ],
+  "wrong": [
+    "wrong/0.wav",
+    "wrong/1.wav"
+  ],
+  "win": [
+    "win/0.wav"
+  ],
+  "intro.rohan": [
+    "intro_rohan/0.wav"
+  ],
+  "intro.priya": [
+    "intro_priya/0.wav"
+  ],
+  "intro.vikram": [
+    "intro_vikram/0.wav"
+  ],
+  "intro.kamla": [
+    "intro_kamla/0.wav"
+  ],
+  "intro.general": [
+    "intro_general/0.wav"
+  ],
+  "confess.rohan": [
+    "confess_rohan/0.wav",
+    "confess_rohan/1.wav",
+    "confess_rohan/2.wav"
+  ],
+  "taunt.rohan": [
+    "taunt_rohan/0.wav"
+  ],
+  "reveal.rohan": [
+    "reveal_rohan/0.wav"
+  ],
+  "confess.priya": [
+    "confess_priya/0.wav",
+    "confess_priya/1.wav",
+    "confess_priya/2.wav"
+  ],
+  "taunt.priya": [
+    "taunt_priya/0.wav"
+  ],
+  "reveal.priya": [
+    "reveal_priya/0.wav"
+  ],
+  "confess.vikram": [
+    "confess_vikram/0.wav",
+    "confess_vikram/1.wav",
+    "confess_vikram/2.wav"
+  ],
+  "taunt.vikram": [
+    "taunt_vikram/0.wav"
+  ],
+  "reveal.vikram": [
+    "reveal_vikram/0.wav"
+  ],
+  "confess.general": [
+    "confess_general/0.wav",
+    "confess_general/1.wav",
+    "confess_general/2.wav"
+  ],
+  "taunt.general": [
+    "taunt_general/0.wav"
+  ],
+  "reveal.general": [
+    "reveal_general/0.wav"
+  ]
+}

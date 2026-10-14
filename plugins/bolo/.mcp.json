@@ -1,0 +1,9 @@
+{
+  "mcpServers": {
+    "bolo": {
+      "command": "bolo-mcp",
+      "args": [],
+      "default_tools_approval_mode": "approve"
+    }
+  }
+}

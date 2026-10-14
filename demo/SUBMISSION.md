@@ -1,28 +1,41 @@
 # Submission pack — Sarvam Discord Community Challenge
 
-## The post (X / LinkedIn) — quote the official Bulbul announcement
+**Repo (live):** https://github.com/Vedant020000/bolo
 
-> bolo 🎙 — **give any AI agent a voice.**
+## 1 · X — quote-post the official Bulbul announcement with this text
+
+> bolo 🎙 — give any AI agent a voice.
 >
-> One plugin (MCP). Five lines of config. Now Letta Code, Codex, VS Code — any agent on your machine — speaks out loud. And hears you back.
+> One plugin. Your agent calls speak() and says the headline out loud — the result, the question, the confirmation — while its full answer stays on screen. And it hears you back.
 >
-> Every sentence is **Sarvam Bulbul V4 Flash**: 200+ Indian voices, natural Hinglish, real-time. Ears by **Saaras V4**.
+> 200+ Sarvam Bulbul V4 Flash voices, natural Hinglish, fully local. Ships as a Claude Code plugin and a Codex plugin.
 >
-> Your agent narrates its work while you make chai. Or you just talk to it.
+> github.com/Vedant020000/bolo
+
+## 2 · LinkedIn — same story, slightly longer
+
+> I built bolo for Sarvam's Bulbul challenge — one plugin that gives any AI coding agent a voice.
 >
-> Open source → [repo link]
+> The idea: agents shouldn't read you their whole essay. bolo gives them a speak() tool — they say the one thing worth hearing out loud, while the full answer stays on screen. A listen() tool lets them hear you back (in Hinglish, properly).
+>
+> • Works with Letta Code, Codex, Claude Code, VS Code, OpenCode, Cursor, Pi — anything MCP
+> • Ships as a Claude Code plugin and a Codex plugin (the repo is both marketplaces)
+> • Every line is Sarvam Bulbul V4 Flash; ears are Saaras V4
+> • One-command setup (bolo setup), zero dependencies, everything local
+>
+> github.com/Vedant020000/bolo
 
-## Discord ⁠🏆・product-showcase post
+## 3 · Discord ⁠🏆・product-showcase post (tag: Sarvam Bulbul Build Challenge)
 
-**Name:** Vedant Sondur
-**Project:** bolo — one plugin that gives *any* AI agent a voice. Ships as a **Claude Code plugin and a Codex plugin** (its own GitHub repo is the marketplace: `/plugin marketplace add Vedant020000/bolo` → `/plugin install bolo@bolo`, same for `codex plugin`), plus `bolo install --mcp` auto-wires VS Code, Cursor, Letta Code, OpenCode and Pi. Agents get `speak()` / `listen()` / `stop_speaking()` tools; the `speak` tool is built around one idea — the agent says *the headline* out loud (the one thing worth hearing) while its full explanation stays on screen. Hooks let agents narrate replies automatically; a push-to-talk CLI lets you talk back. All audio is Bulbul V4 Flash (200+ personas, Hinglish native); listening is Saaras V4. Zero dependencies, auto-starts, local-first.
-**Social Post:** [X / LinkedIn link]
-**GitHub:** [repo link]
+> **Name:** Vedant Sondur
+> **Project:** bolo — one plugin that gives any AI agent a voice. The agent calls speak() to say the headline out loud (full answer stays in text), listen() to hear you back, stop_speaking() to shut up. `bolo setup` wires every harness it finds (Letta Code, Codex, VS Code, OpenCode, Pi) — and the repo itself ships as both a Claude Code plugin and a Codex plugin. All audio: Bulbul V4 Flash (200+ personas, Hinglish native); listening: Saaras V4. Zero dependencies, fully local.
+> **Social Post:** [paste your X / LinkedIn link here]
+> **GitHub:** https://github.com/Vedant020000/bolo
 
-## Checklist
+## Order of operations
 
-- [ ] Make the repo public (github.com/...)
-- [ ] X post quoting the official Bulbul announcement
-- [ ] LinkedIn post (same copy)
-- [ ] ⁠🏆・product-showcase Discord post (tag: **Sarvam Bulbul Build Challenge**)
-- [ ] Demo video attached/linked (recommended)
+1. Post the X quote-post (of the official Bulbul announcement) — with the repo link
+2. Post on LinkedIn (same text)
+3. Paste the X/LinkedIn link into the Discord post + tag it → submit in ⁠🏆・product-showcase
+
+Optional (nice-to-have, not required): a 60–90s screen recording — `bolo setup` running, then a `speak` call from Codex or Letta, then one voice tour (`bolo voices --audition …`).

@@ -98,10 +98,9 @@ bolo status · bolo doctor · bolo setup
 | `interrupt` | `true` | new speech interrupts current speech |
 | `mic_setup` | `[]` | commands re-applied at startup to keep the mic sane |
 
-## Extras — the same engine, two toys
+## Extras
 
-- **`bolo mystery`** — *Khooni Monday*: an AI murder mystery you play by voice. Five suspects, five Bulbul voices, live in-character interrogations, random killer. ![poster](demo/poster.png)
-- **`bolo play cricket`** — character packs that commentate your computer (cricket, news, trailer, documentary, dost, hype, maa)
+- **Character packs** — `bolo play cricket` commentates your computer (cricket, news, trailer, documentary, dost, hype, maa)
 
 ## Credits
 

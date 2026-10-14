@@ -403,12 +403,6 @@ def cmd_mcp(args) -> int:  # noqa: ARG001
     return mcp.main()
 
 
-def cmd_mystery(args) -> int:  # noqa: ARG001
-    from .mystery.game import run
-
-    return run()
-
-
 def _install_files() -> pathlib.Path:
     """Copy hook files + write CLI/MCP shims. Returns the share dir."""
     share = pathlib.Path.home() / ".local" / "share" / "bolo"
@@ -834,10 +828,6 @@ def main(argv=None) -> int:
     dp.set_defaults(func=cmd_daemon)
 
     sub.add_parser("mcp", help="run the bolo MCP server (stdio)").set_defaults(func=cmd_mcp)
-
-    sub.add_parser(
-        "mystery", help="🕵️ Khooni Monday — an AI murder mystery you play by voice"
-    ).set_defaults(func=cmd_mystery)
 
     sp2 = sub.add_parser(
         "setup", help="one-command onboarding: install, wire every harness, verify, say hello"
